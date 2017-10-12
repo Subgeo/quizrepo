@@ -3,6 +3,11 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+/**
+	*@file course.cc
+	*@Author John Dolan
+	*@brief  file that contains functions to display course numbers, grades and credit hours
+*/
 #include "course.h"
 #include<cstdlib>
 #include<iostream>
@@ -68,7 +73,11 @@ double course::get_number_grade()const{
     if(grade == "F") return 0.0;
     else return 0;
 }
-
+/**
+	*@brief This function sets the course number, grade, and credit hours
+	*@param num, grad, hrs
+	*@return none
+*/
 void course::set_course(std::string num, std::string grad, double hrs){
 	course_number = num;
 	grade = grad;

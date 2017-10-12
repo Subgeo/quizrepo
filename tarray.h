@@ -7,7 +7,11 @@
 		Lab 7		Fall 2014
 	John Dolan			Ohio University 
 ********************************************************************/
-
+/**
+	*@file tarray.h
+	*@author John Dolan
+	*@date October 12 2017
+*/
 #include<iostream>
 
 template<class T>

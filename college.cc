@@ -4,19 +4,32 @@
 //CS 2401
 //10/8/2015
 //********************
+/**
+	*@file college.cc
+	*@Author Matthew Aberegg
+	*@brief  file that contains functions to add and remove courses
+*/
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
 #include<iomanip>
 #include<string>
 using namespace std;
-
+/**
+	*@brief This is a constructor of type college that takes a string as an argument
+	*@param s
+	*@return none
+*/
 College::College(std::string s){
 	name = s;
 	head = NULL;
 }
 
-
+/**
+	*@brief This is a destructor of type college that takes no arguements
+	*@param rmptr
+	*@return none
+*/
 College::~College(){
 	node * rmptr;
 	while(head != NULL){

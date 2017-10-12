@@ -11,7 +11,12 @@
     and the .cc file for the container.
 	John Dolan			Spring 2015
 **********************************************************/
-
+/**
+	*@file collegemain.cc
+	*@Author John Dolan
+	*@brief  file that contains the main of the program
+	*@detail The main provides a menu from which to choose options from using cases and also allows files to be read in and saved when done
+*/
 #include <iostream>
 #include <fstream>
 #include <string>

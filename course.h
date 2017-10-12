@@ -6,7 +6,11 @@
 	point system.
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
-
+/**
+	*@file course.h
+	*@author John Dolan
+	*@date October 12 2017
+*/
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

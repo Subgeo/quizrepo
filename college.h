@@ -4,7 +4,11 @@
 //CS 2401
 //10/8/2015
 //********************
-
+/**
+	*@file college.h
+	*@author Matthew Aberegg
+	*@date October 12 2017
+*/
 #include <iostream>
 #include <fstream>
 #include <string>
